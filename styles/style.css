@@ -128,7 +128,7 @@ body {
   background-color: var(--color-dark-violet);
 }
 
-.project-info {
+.card__project-info {
   color: var(--color-light-violet);
 }
 
