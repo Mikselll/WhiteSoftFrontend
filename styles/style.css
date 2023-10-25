@@ -8,23 +8,23 @@ body {
   align-items: center;
 }
 
-.container {
+.card {
   max-width: 375px;
   padding: 32px 24px;
 
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 32px;
 
   background-color: var(--color-background);
 }
 
-.container__logo {
+.card__logo {
   max-width: 200px;
 }
 
-.container__card {
+.card__data {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,14 +32,14 @@ body {
 
 }
 
-.card__user {
+.data__user {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 4px;
 }
 
-.card__info {
+.data__info {
   display: flex;
   flex-direction: column;
   gap: 36px;
@@ -68,51 +68,18 @@ body {
   gap: 8px;
 }
 
-.icon {
-  width: 32px;
-  height: 24px;
-
-  display: flex;
-  align-items: center;
-
-  border-radius: 3.2px;
-}
-.icon::before {
-  content: "";
-
-  width: 32px;
-  height: 32px;
-
-  display: block;
-  
-  background-repeat: no-repeat;
-  background-size: cover;
+.item__icon {
+  width: 40px;
+  height: 40px;
 }
 
-.icon_green {
-  transform: rotate(34.436deg);
-  background-color: var(--color-green);
-}
-.icon_green::before {
-  transform: rotate(-34.436deg);
+.item__icon--green {
   background-image: url("../images/Icon1.svg");
 }
-
-.icon_yellow {
-  transform: rotate(-28.156deg);
-  background-color: var(--color-yellow);
-}
-.icon_yellow::before {
-  transform: rotate(28.156deg);
+.item__icon--yellow {
   background-image: url("../images/Icon2.svg");
 }
-
-.icon_purple {
-  transform: rotate(-55.977deg);
-  background-color: var(--color-purple);
-}
-.icon_purple::before {
-  transform: rotate(55.977deg);
+.item__icon--purple {
   background-image: url("../images/Icon3.svg");
 }
 
@@ -128,11 +95,15 @@ body {
   background-color: var(--color-dark-violet);
 }
 
+<<<<<<< HEAD
 .card__project-info {
+=======
+.data__project-info {
+>>>>>>> 0469fbd (fix icon, naming)
   color: var(--color-light-violet);
 }
 
-.card__links {
+.data__links {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -145,14 +116,12 @@ body {
   height: 38px;
 }
 
-.link_appstore {
+.link--appstore {
   background-image: url(../images/AppStore.svg);
 }
-
-.link_googleplay {
+.link--googleplay {
   background-image: url(../images/GooglePlay.svg);
 }
-
-.link_apk {
+.link--apk {
   background-image: url(../images/APK.svg);
 }
