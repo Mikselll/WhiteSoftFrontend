@@ -44,7 +44,7 @@ body {
   gap: 36px;
 }
 
-.card__possibilities-wrapper {
+.info {
   padding: 24px;
 
   display: flex;
@@ -55,13 +55,13 @@ body {
   background-color: var(--color-white);
 }
 
-.card__possibilities-items {
+.info__possibilities-items {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
-.card__possibilities-items .item {
+.info__possibilities-items .item {
   display: flex;
   align-items: center;
   gap: 8px;
