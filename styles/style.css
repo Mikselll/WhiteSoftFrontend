@@ -61,25 +61,10 @@ body {
   gap: 12px;
 }
 
-.item {
+.possibilities__items .item {
   display: flex;
   align-items: center;
   gap: 8px;
-}
-
-.item__icon {
-  width: 40px;
-  height: 40px;
-}
-
-.item__icon--green {
-  background-image: url("../images/Icon1.svg");
-}
-.item__icon--yellow {
-  background-image: url("../images/Icon2.svg");
-}
-.item__icon--purple {
-  background-image: url("../images/Icon3.svg");
 }
 
 .info__button {
@@ -105,7 +90,7 @@ body {
   gap: 8px 16px;
 }
 
-.link {
+.data__links .link {
   display: block;
   width: 135px;
   height: 38px;
