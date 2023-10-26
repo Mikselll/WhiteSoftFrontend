@@ -1,0 +1,107 @@
+@import url("reset.css");
+@import url("variables.css");
+@import url("fonts.css");
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 375px;
+  padding: 32px 24px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+
+  background-color: var(--color-background);
+}
+
+.card__logo {
+  max-width: 200px;
+}
+
+.card__data-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.card__user-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.card__info-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.info {
+  padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  border-radius: 12px;
+  background-color: var(--color-white);
+}
+
+.info__possibilities-items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.info__possibilities-items .item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.card__button {
+  padding: 20px 30px;
+
+  color: var(--color-white);
+
+  border-radius: 8px;
+  background-color: var(--color-light-violet);
+}
+.card__button:hover {
+  background-color: var(--color-dark-violet);
+}
+
+.card__project-info {
+  color: var(--color-light-violet);
+}
+
+.card__links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+.card__links .link {
+  display: block;
+  width: 135px;
+  height: 38px;
+}
+
+.link--appstore {
+  background-image: url(../images/AppStore.svg);
+}
+.link--googleplay {
+  background-image: url(../images/GooglePlay.svg);
+}
+.link--apk {
+  background-image: url(../images/APK.svg);
+}

@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+html, body, #root {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+  overscroll-behavior: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1, h2, p, a, button {
+  letter-spacing: -0.02em;
+}
