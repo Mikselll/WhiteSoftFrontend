@@ -38,7 +38,7 @@ body {
   gap: 4px;
 }
 
-.card__info {
+.card__info-wrapper {
   display: flex;
   flex-direction: column;
   gap: 36px;
