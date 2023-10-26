@@ -24,27 +24,27 @@ body {
   max-width: 200px;
 }
 
-.card__data {
+.card__data-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
 }
 
-.data__user {
+.card__user-data {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 4px;
 }
 
-.data__info {
+.card__info {
   display: flex;
   flex-direction: column;
   gap: 36px;
 }
 
-.info__possibilities {
+.card__possibilities-wrapper {
   padding: 24px;
 
   display: flex;
@@ -55,19 +55,19 @@ body {
   background-color: var(--color-white);
 }
 
-.possibilities__items {
+.card__possibilities-items {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
 
-.possibilities__items .item {
+.card__possibilities-items .item {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.info__button {
+.card__button {
   padding: 20px 30px;
 
   color: var(--color-white);
@@ -75,22 +75,22 @@ body {
   border-radius: 8px;
   background-color: var(--color-light-violet);
 }
-.info__button:hover {
+.card__button:hover {
   background-color: var(--color-dark-violet);
 }
 
-.data__project-info {
+.card__project-info {
   color: var(--color-light-violet);
 }
 
-.data__links {
+.card__links {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 8px 16px;
 }
 
-.data__links .link {
+.card__links .link {
   display: block;
   width: 135px;
   height: 38px;
